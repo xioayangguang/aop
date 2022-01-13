@@ -4,9 +4,10 @@ use app\controller\Index;
 use Xiaoyangguang\Aop\Example\TestAspect;
 
 return [
-    TestAspect::class => [
-        Index::class => [
-            'index',
-        ],
-    ],
+    //测试的时候打开下面注释
+//    TestAspect::class => [
+//        Index::class => [
+//            'index',
+//        ],
+//    ],
 ];

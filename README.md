@@ -17,6 +17,8 @@ composer require xiaoyangguang/aop
 php start.php start
 curl  http://127.0.0.1:8787
 此时控制台打印前置和后置切面函数打印值
+string(12) "beforeAdvice"
+string(11) "afterAdvice"
 ```
 
 
